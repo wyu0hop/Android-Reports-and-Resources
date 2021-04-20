@@ -14,15 +14,29 @@
 
 ### Insecure deeplinks
 
+#### Account Takeover Via DeepLink
+[https://hackerone.com/reports/855618](https://hackerone.com/reports/855618)
+
 #### Sensitive information disclosure
 
 [https://hackerone.com/reports/401793](https://hackerone.com/reports/401793)
 
-### RCE
+### RCE/ACE
 
 #### RCE in TinyCards for Android
 
 [https://hackerone.com/reports/281605](https://hackerone.com/reports/281605) - TinyCards made this report private.
+
+#### Persistent arbitrary code execution in Android's Google Play Core Library: details, explanation and the PoC
+
+[https://hackerone.com/reports/971386](https://hackerone.com/reports/971386)
+
+#### CVE-2020-8913: Persistent arbitrary code execution in Google Play Core library
+
+[https://blog.oversecured.com/Oversecured-automatically-discovers-persistent-code-execution-in-the-Google-Play-Core-Library/](https://blog.oversecured.com/Oversecured-automatically-discovers-persistent-code-execution-in-the-Google-Play-Core-Library/) - Persistent arbitrary code execution in Android's Google Play Core Library: details, explanation and the PoC - CVE-2020-8913
+
+#### TikTok: three persistent arbitrary code executions and one theft of arbitrary files
+[https://blog.oversecured.com/Oversecured-detects-dangerous-vulnerabilities-in-the-TikTok-Android-app/](https://blog.oversecured.com/Oversecured-detects-dangerous-vulnerabilities-in-the-TikTok-Android-app/) - Oversecured detects dangerous vulnerabilities in the TikTok Android app
 
 --------
 
@@ -179,6 +193,17 @@
 
 ## Practice Apps
 
+#### Oversecured Vulnerable Android App
+[A vulnerable app showing modern security bugs in Android apps](https://github.com/oversecured/ovaa)
+
+#### Damn Vulnerable Bank
+
+[Vulnerable Banking Application for Android](https://github.com/rewanth1997/Damn-Vulnerable-Bank)
+
+#### Vuldroid
+
+[Vulnerable Android Application made with security issues](https://github.com/jaiswalakshansh/Vuldroid)
+
 #### InjuredAndroid
 
 [A vulnerable Android application with ctf examples based on bug bounty findings, exploitation concepts, and pure creativity.](https://github.com/B3nac/InjuredAndroid)
@@ -220,3 +245,13 @@
 [Install PLayStore On Android Emulator](https://medium.com/@dai_shi/installing-google-play-services-on-an-android-studio-emulator-fffceb2c28a1)
 
 [Android Bug Bounty Tips](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition-f88a9f383fcc)
+
+[Android: Access to app protected components](https://blog.oversecured.com/Android-Access-to-app-protected-components/)
+
+[Android: arbitrary code execution via third-party package contexts](https://blog.oversecured.com/Android-arbitrary-code-execution-via-third-party-package-contexts/)
+
+[Interception of Android implicit intents](https://blog.oversecured.com/Interception-of-Android-implicit-intents/)
+
+[Evernote: Universal-XSS, theft of all cookies from all sites, and more](https://blog.oversecured.com/Evernote-Universal-XSS-theft-of-all-cookies-from-all-sites-and-more/)
+
+[Android: Gaining access to arbitrary* Content Providers](https://blog.oversecured.com/Gaining-access-to-arbitrary-Content-Providers/)
